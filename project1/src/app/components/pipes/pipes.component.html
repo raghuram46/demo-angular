@@ -6,12 +6,12 @@
       <b>{{title | lowercase}}</b>  
       <h1>Currency Pipe</h1>  
       <b>{{6589.23 | currency:"USD"}}</b><br/>  
-      <b>{{6589.23 | currency:"USD":true}}</b> //Boolean true is used to get the sign of the currency.  
+      <b>{{6589.23 | currency:"INR": false}}</b> //Boolean true is used to get the sign of the currency.  
       <h1>Date pipe</h1>  
       <b>{{todaydate | date:'d/M/y'}}</b><br/>  
       <b>{{todaydate | date:'shortTime'}}</b>  
       <h1>Decimal Pipe</h1>  
-      <b>{{ 454.78787814 | number: '3.4-4' }}</b> // 3 is for main integer, 4 -4 are for integers to be displayed.  
+      <b>{{ 454.78787814 | number: '3.1-4' }}</b> // 3 is for main integer, 4 -4 are for integers to be displayed.  
     </div>  
     <div style = "width:40%;float:left;border:solid 1px black;">  
       <h1>Json Pipe</h1>  
